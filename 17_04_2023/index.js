@@ -9,18 +9,22 @@ userData.users.map((data)=>{
     newObject.push({name:data.name,email:data.name})
 })
 
+console.log(newObject);
+
+
+
 // Find age of all users.
-
-
-
 
 function calculateAge(data){
     data.map((data)=>{
-        // let birthDate=parseInt((data.dob).substring(0,4),10);
+        let birthDay=parseInt((data.dob).substring(0,4),10);
         let birthMonth=parseInt((data.dob).substring(3,5),10);
         let birthYear=parseInt((data.dob).substring(6),10);
+
+        
         let currentDate=new Date()
-        // let currentDateDay=currentDate.getDate()
+        
+        let currentDateDay=currentDate.getDate()
         let currentDateMonth=currentDate.getMonth()
         let currentDateYear=currentDate.getFullYear()
         let years=currentDateYear-birthYear
@@ -29,6 +33,10 @@ function calculateAge(data){
         
         if(birthMonth>currentDateMonth){
          years=years-1
+        }else if(birthMonth===currentDateMonth){
+           if(birthDay>currentDateDay){
+            years=years-1
+           }
         }
         console.log(`${data.name} Age is ${years} years`);
     })
@@ -36,4 +44,4 @@ function calculateAge(data){
 
 calculateAge(userData.users)
 
-// console.log(newObject);
+

@@ -1,0 +1,13 @@
+#movies_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap:wrap ;
+}
+
+#movies_container div{
+    border: 1px solid black;
+    gap: 10px;
+}

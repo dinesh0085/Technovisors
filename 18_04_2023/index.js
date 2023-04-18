@@ -88,7 +88,11 @@
 // Display JSON data in table using JQuery and Data Table
 
 $(document).ready( function () {
+
+   
     $('#myTable').DataTable({
+         lengthMenu: [20, 40, 60, 80, 100],
+         pageLength: 50,
         ajax: {
             url: './Data_json/data.json',
             dataSrc: 'Sale'
@@ -100,6 +104,11 @@ $(document).ready( function () {
             {data:"Country"},
             {data:"Brand"},
             {data:"Amount"}
-         ]
+         ],
+         dom:"Bfrtip",
+         buttons:['csv','excel']
+       
     });
+
+   
 } );

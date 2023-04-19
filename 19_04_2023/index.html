@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- CSS CDN for datatables -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+<!-- CSS CDN for tabletools -->
+<link rel="stylesheet" href="//cdn.datatables.net/tabletools/2.2.4/css/dataTables.tableTools.css" />
+<!-- CSS CDN for buttons  -->
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css" />
+<!-- CSS Local -->
+<link rel="stylesheet" href="index.css">
+
+
+
+<body>
+    <div id="main_div">
+        <div id="multiple_table_div">
+            <div class="nameCountTableDiv">
+
+                <!-- Name:Count HTML Table -->
+                <table id="nameCountTable" style="width: 100%;">
+
+                    <thead class="table_header">
+                        <tr>
+                            <th class="buttons"></th>
+                        </tr>
+                        <tr>
+                            <th>Name</th>
+                            <th>Found</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table_body">
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+
+            <div class="regionCountTableDiv">
+                <!-- Region:Count HTML Table -->
+                <table id="regionCountTable" style="width: 100%;">
+
+                    <thead class="table_header">
+                        <tr>
+                            <th class="buttons"></th>
+                        </tr>
+                        <tr>
+                            <th>Region</th>
+                            <th>Found</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table_body">
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <div class="countryCountTableDiv">
+                <!-- Country:Count HTML Table -->
+                <table id="countryCountTable" style="width: 100%;">
+
+                    <thead class="table_header">
+                        <tr>
+                            <th class="buttons"></th>
+                        </tr>
+                        <tr>
+                            <th>Country</th>
+                            <th>Found</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table_body">
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div class="brandCountTableDiv">
+                <!-- Brand:Count HTML Table -->
+                <table id="brandCountTable" style="width: 100%;">
+
+                    <thead class="table_header">
+                        <tr>
+                            <th class="buttons"></th>
+                        </tr>
+                        <tr>
+                            <th>Brand</th>
+                            <th>Found</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table_body">
+
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <div id="main_table">
+            <!-- Main HTML Table -->
+            <table id="myTable" class="display">
+
+                <thead>
+                    <tr>
+                        <th class="buttons"></th>
+                    </tr>
+                    <tr>
+                        <th>CUSTOMER NAME</th>
+                        <th>DOC NUMBER</th>
+                        <th>REGION NAME</th>
+                        <th>COUNTRY NAME</th>
+                        <th>BRAND NAME</th>
+                        <th>AMOUNT</th>
+                    </tr>
+                </thead>
+                <tbody id="main_table_body">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <!-- CDN for JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- CDN for datatables -->
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+    <!-- CDN for TableTools -->
+    <!-- <script type="text/javascript" src="DataTables-1.x.x/extras/TableTools/media/js/TableTools.min.js"></script>  -->
+
+    <!-- CDN for export buttons -->
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.3.6/js/buttons.print.min.js"></script>
+
+
+
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>

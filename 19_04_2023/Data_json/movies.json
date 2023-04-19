@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "movie_name": "Digimon: The Movie",
+    "movie_type": "Adventure|Animation|Children",
+    "rating": 1.14,
+    "release_date": "05/02/2023",
+    "movie_status": true
+  },
+  {
+    "id": 2,
+    "movie_name": "Street Kings",
+    "movie_type": "Crime|Drama|Thriller",
+    "rating": 0.85,
+    "release_date": "29/10/2022",
+    "movie_status": false
+  },
+  {
+    "id": 3,
+    "movie_name": "Alligator",
+    "movie_type": "Action|Horror|Sci-Fi",
+    "rating": 0.07,
+    "release_date": "09/11/2022",
+    "movie_status": false
+  },
+  {
+    "id": 4,
+    "movie_name": "Man on Fire",
+    "movie_type": "Action|Crime|Drama|Mystery|Thriller",
+    "rating": 3.68,
+    "release_date": "22/04/2022",
+    "movie_status": true
+  },
+  {
+    "id": 5,
+    "movie_name": "Mardock Scramble: The Second Combustion",
+    "movie_type": "Animation|Sci-Fi",
+    "rating": 1.03,
+    "release_date": "19/05/2022",
+    "movie_status": false
+  },
+  {
+    "id": 6,
+    "movie_name": "Yesterday's Enemy",
+    "movie_type": "Drama|War",
+    "rating": 4.38,
+    "release_date": "02/04/2023",
+    "movie_status": false
+  },
+  {
+    "id": 7,
+    "movie_name": "Beneath",
+    "movie_type": "Horror",
+    "rating": 4.0,
+    "release_date": "17/02/2023",
+    "movie_status": true
+  },
+  {
+    "id": 8,
+    "movie_name": "Thousand Clowns, A",
+    "movie_type": "Comedy|Drama|Romance",
+    "rating": 3.64,
+    "release_date": "03/04/2022",
+    "movie_status": false
+  },
+  {
+    "id": 9,
+    "movie_name": "Tulpan",
+    "movie_type": "Comedy|Drama",
+    "rating": 4.43,
+    "release_date": "10/03/2023",
+    "movie_status": false
+  },
+  {
+    "id": 10,
+    "movie_name": "Dark Forces (Harlequin)",
+    "movie_type": "Drama|Fantasy|Mystery",
+    "rating": 1.38,
+    "release_date": "31/01/2023",
+    "movie_status": true
+  },
+  {
+    "id": 11,
+    "movie_name": "Captain Midnight",
+    "movie_type": "Action|Adventure|Thriller",
+    "rating": 2.07,
+    "release_date": "28/03/2023",
+    "movie_status": true
+  },
+  {
+    "id": 12,
+    "movie_name": "Shoulder Arms",
+    "movie_type": "Comedy|War",
+    "rating": 0.66,
+    "release_date": "15/04/2022",
+    "movie_status": false
+  },
+  {
+    "id": 13,
+    "movie_name": "Days of Glory",
+    "movie_type": "Drama|Romance|War",
+    "rating": 2.26,
+    "release_date": "24/03/2023",
+    "movie_status": false
+  },
+  {
+    "id": 14,
+    "movie_name": "Pornography (Pornografia)",
+    "movie_type": "Drama|Romance|War",
+    "rating": 3.62,
+    "release_date": "17/08/2022",
+    "movie_status": false
+  },
+  {
+    "id": 15,
+    "movie_name": "Birdcage, The",
+    "movie_type": "Comedy",
+    "rating": 0.38,
+    "release_date": "29/08/2022",
+    "movie_status": false
+  },
+  {
+    "id": 16,
+    "movie_name": "360",
+    "movie_type": "Drama",
+    "rating": 2.86,
+    "release_date": "28/03/2023",
+    "movie_status": true
+  },
+  {
+    "id": 17,
+    "movie_name": "Eddie and the Cruisers II: Eddie Lives!",
+    "movie_type": "Drama|Musical",
+    "rating": 4.28,
+    "release_date": "20/03/2023",
+    "movie_status": false
+  },
+  {
+    "id": 18,
+    "movie_name": "American Haunting, An",
+    "movie_type": "Drama|Horror|Mystery|Thriller",
+    "rating": 4.41,
+    "release_date": "10/12/2022",
+    "movie_status": false
+  },
+  {
+    "id": 19,
+    "movie_name": "The Man in Possession",
+    "movie_type": "Comedy",
+    "rating": 4.38,
+    "release_date": "15/02/2023",
+    "movie_status": false
+  },
+  {
+    "id": 20,
+    "movie_name": "Henry",
+    "movie_type": "Comedy",
+    "rating": 2.69,
+    "release_date": "27/03/2023",
+    "movie_status": true
+  },
+  {
+    "id": 21,
+    "movie_name": "Banklady",
+    "movie_type": "Action|Crime|Drama|Romance",
+    "rating": 4.56,
+    "release_date": "30/08/2022",
+    "movie_status": false
+  },
+  {
+    "id": 22,
+    "movie_name": "Dead Weekend",
+    "movie_type": "Comedy|Sci-Fi",
+    "rating": 0.15,
+    "release_date": "28/04/2022",
+    "movie_status": false
+  },
+  {
+    "id": 23,
+    "movie_name": "Kiss for Corliss, A (Almost a Bride)",
+    "movie_type": "Comedy",
+    "rating": 4.62,
+    "release_date": "13/08/2022",
+    "movie_status": false
+  },
+  {
+    "id": 24,
+    "movie_name": "Frankenstein 90",
+    "movie_type": "Comedy|Horror|Romance",
+    "rating": 3.92,
+    "release_date": "29/01/2023",
+    "movie_status": false
+  },
+  {
+    "id": 25,
+    "movie_name": "Man on a Ledge",
+    "movie_type": "Crime|Thriller",
+    "rating": 2.82,
+    "release_date": "26/04/2023",
+    "movie_status": true
+  },
+  {
+    "id": 26,
+    "movie_name": "End of Suburbia: Oil Depletion and the Collapse of the American Dream",
+    "movie_type": "Documentary",
+    "rating": 4.6,
+    "release_date": "10/05/2022",
+    "movie_status": false
+  },
+  {
+    "id": 27,
+    "movie_name": "Torrente 4: Lethal Crisis",
+    "movie_type": "Action|Comedy|Crime",
+    "rating": 3.94,
+    "release_date": "03/10/2022",
+    "movie_status": false
+  },
+  {
+    "id": 28,
+    "movie_name": "Quest, The",
+    "movie_type": "Adventure|Children|Drama",
+    "rating": 2.85,
+    "release_date": "18/07/2022",
+    "movie_status": true
+  },
+  {
+    "id": 29,
+    "movie_name": "Last Mogul, The",
+    "movie_type": "Documentary",
+    "rating": 3.99,
+    "release_date": "20/12/2022",
+    "movie_status": true
+  },
+  {
+    "id": 30,
+    "movie_name": "Strange Circus (Kimyô na sâkasu)",
+    "movie_type": "Horror|Mystery|Thriller",
+    "rating": 0.3,
+    "release_date": "24/06/2022",
+    "movie_status": false
+  },
+  {
+    "id": 31,
+    "movie_name": "In Your Hands (Forbrydelser)",
+    "movie_type": "Drama",
+    "rating": 4.16,
+    "release_date": "11/08/2022",
+    "movie_status": true
+  },
+  {
+    "id": 32,
+    "movie_name": "Catch-22",
+    "movie_type": "Comedy|War",
+    "rating": 4.01,
+    "release_date": "13/11/2022",
+    "movie_status": false
+  },
+  {
+    "id": 33,
+    "movie_name": "Diary of a Wimpy Kid: Rodrick Rules",
+    "movie_type": "Comedy",
+    "rating": 0.58,
+    "release_date": "03/01/2023",
+    "movie_status": false
+  },
+  {
+    "id": 34,
+    "movie_name": "Reflections in a Golden Eye",
+    "movie_type": "Drama",
+    "rating": 4.41,
+    "release_date": "13/04/2023",
+    "movie_status": false
+  },
+  {
+    "id": 35,
+    "movie_name": "Praying with Lior",
+    "movie_type": "Documentary",
+    "rating": 3.58,
+    "release_date": "23/12/2022",
+    "movie_status": false
+  },
+  {
+    "id": 36,
+    "movie_name": "40 Pounds of Trouble",
+    "movie_type": "Comedy",
+    "rating": 4.5,
+    "release_date": "15/07/2022",
+    "movie_status": false
+  },
+  {
+    "id": 37,
+    "movie_name": "Wedding Bell Blues",
+    "movie_type": "Comedy",
+    "rating": 3.25,
+    "release_date": "18/11/2022",
+    "movie_status": true
+  },
+  {
+    "id": 38,
+    "movie_name": "Battle of the Year",
+    "movie_type": "Musical",
+    "rating": 3.18,
+    "release_date": "27/10/2022",
+    "movie_status": true
+  },
+  {
+    "id": 39,
+    "movie_name": "Messengers, The",
+    "movie_type": "Drama|Horror|Thriller",
+    "rating": 4.16,
+    "release_date": "14/03/2023",
+    "movie_status": true
+  },
+  {
+    "id": 40,
+    "movie_name": "The Last Farm",
+    "movie_type": "Drama",
+    "rating": 3.89,
+    "release_date": "14/09/2022",
+    "movie_status": false
+  },
+  {
+    "id": 41,
+    "movie_name": "Shadowboxer",
+    "movie_type": "Crime|Drama|Thriller",
+    "rating": 4.09,
+    "release_date": "31/05/2022",
+    "movie_status": true
+  },
+  {
+    "id": 42,
+    "movie_name": "Girl with Green Eyes",
+    "movie_type": "Drama|Romance",
+    "rating": 2.15,
+    "release_date": "13/02/2023",
+    "movie_status": false
+  },
+  {
+    "id": 43,
+    "movie_name": "Mad Love (Sappho)",
+    "movie_type": "Drama|Romance",
+    "rating": 0.32,
+    "release_date": "18/03/2023",
+    "movie_status": false
+  },
+  {
+    "id": 44,
+    "movie_name": "Accidental Husband, The",
+    "movie_type": "Comedy|Romance",
+    "rating": 1.31,
+    "release_date": "28/01/2023",
+    "movie_status": false
+  },
+  {
+    "id": 45,
+    "movie_name": "Jane Eyre",
+    "movie_type": "Drama|Romance",
+    "rating": 2.96,
+    "release_date": "21/04/2022",
+    "movie_status": false
+  },
+  {
+    "id": 46,
+    "movie_name": "Charlie Chan in London",
+    "movie_type": "Drama|Mystery",
+    "rating": 1.2,
+    "release_date": "21/08/2022",
+    "movie_status": false
+  },
+  {
+    "id": 47,
+    "movie_name": "Christmas Carol, A",
+    "movie_type": "Children|Drama|Fantasy",
+    "rating": 2.36,
+    "release_date": "01/09/2022",
+    "movie_status": false
+  },
+  {
+    "id": 48,
+    "movie_name": "Agnes Browne",
+    "movie_type": "Comedy|Drama",
+    "rating": 4.27,
+    "release_date": "07/06/2022",
+    "movie_status": false
+  },
+  {
+    "id": 49,
+    "movie_name": "Stephen Fry In America - New World",
+    "movie_type": "(no genres listed)",
+    "rating": 1.0,
+    "release_date": "29/09/2022",
+    "movie_status": true
+  },
+  {
+    "id": 50,
+    "movie_name": "Muppet Treasure Island",
+    "movie_type": "Adventure|Children|Comedy|Musical",
+    "rating": 2.94,
+    "release_date": "27/12/2022",
+    "movie_status": false
+  },
+  {
+    "id": 51,
+    "movie_name": "Singin' in the Rain",
+    "movie_type": "Comedy|Musical|Romance",
+    "rating": 1.64,
+    "release_date": "03/07/2022",
+    "movie_status": false
+  },
+  {
+    "id": 52,
+    "movie_name": "Foreign Correspondent",
+    "movie_type": "Drama|Film-Noir|Mystery|Thriller",
+    "rating": 0.89,
+    "release_date": "27/01/2023",
+    "movie_status": true
+  },
+  {
+    "id": 53,
+    "movie_name": "Thief Who Came to Dinner, The",
+    "movie_type": "Comedy|Romance",
+    "rating": 0.91,
+    "release_date": "03/05/2022",
+    "movie_status": true
+  },
+  {
+    "id": 54,
+    "movie_name": "Funny Ha Ha",
+    "movie_type": "Comedy|Drama",
+    "rating": 1.63,
+    "release_date": "08/11/2022",
+    "movie_status": false
+  },
+  {
+    "id": 55,
+    "movie_name": "Inserts",
+    "movie_type": "Comedy|Drama",
+    "rating": 4.6,
+    "release_date": "26/03/2023",
+    "movie_status": false
+  },
+  {
+    "id": 56,
+    "movie_name": "Zero Day",
+    "movie_type": "Drama",
+    "rating": 1.68,
+    "release_date": "06/11/2022",
+    "movie_status": true
+  },
+  {
+    "id": 57,
+    "movie_name": "Trojan Eddie",
+    "movie_type": "Crime|Drama|Romance",
+    "rating": 3.24,
+    "release_date": "28/02/2023",
+    "movie_status": true
+  },
+  {
+    "id": 58,
+    "movie_name": "Dummy",
+    "movie_type": "Comedy|Drama|Romance",
+    "rating": 1.68,
+    "release_date": "21/05/2022",
+    "movie_status": true
+  },
+  {
+    "id": 59,
+    "movie_name": "White Fang",
+    "movie_type": "Adventure",
+    "rating": 2.37,
+    "release_date": "10/04/2022",
+    "movie_status": false
+  },
+  {
+    "id": 60,
+    "movie_name": "Princess Diaries, The",
+    "movie_type": "Children|Comedy|Romance",
+    "rating": 3.99,
+    "release_date": "23/12/2022",
+    "movie_status": false
+  },
+  {
+    "id": 61,
+    "movie_name": "Música Campesina (Country Music)",
+    "movie_type": "Comedy|Drama",
+    "rating": 2.39,
+    "release_date": "10/04/2022",
+    "movie_status": false
+  },
+  {
+    "id": 62,
+    "movie_name": "Big Bang Theory, The (2007-)",
+    "movie_type": "Comedy",
+    "rating": 0.8,
+    "release_date": "28/10/2022",
+    "movie_status": false
+  },
+  {
+    "id": 63,
+    "movie_name": "Yes Or No",
+    "movie_type": "Comedy|Drama|Romance",
+    "rating": 0.38,
+    "release_date": "03/04/2023",
+    "movie_status": false
+  },
+  {
+    "id": 64,
+    "movie_name": "Sorrow and the Pity, The (Le chagrin et la pitié)",
+    "movie_type": "Documentary|War",
+    "rating": 2.46,
+    "release_date": "23/08/2022",
+    "movie_status": true
+  },
+  {
+    "id": 65,
+    "movie_name": "Kind Lady",
+    "movie_type": "Drama|Thriller",
+    "rating": 1.23,
+    "release_date": "17/01/2023",
+    "movie_status": true
+  },
+  {
+    "id": 66,
+    "movie_name": "Naked Souls",
+    "movie_type": "Sci-Fi|Thriller",
+    "rating": 4.7,
+    "release_date": "05/03/2023",
+    "movie_status": true
+  },
+  {
+    "id": 67,
+    "movie_name": "Cabinet of Dr. Caligari, The (Cabinet des Dr. Caligari., Das)",
+    "movie_type": "Crime|Fantasy|Horror",
+    "rating": 3.72,
+    "release_date": "16/05/2022",
+    "movie_status": true
+  },
+  {
+    "id": 68,
+    "movie_name": "Inheritance, The (Karami-ai)",
+    "movie_type": "Drama",
+    "rating": 4.06,
+    "release_date": "23/08/2022",
+    "movie_status": true
+  },
+  {
+    "id": 69,
+    "movie_name": "Ripley Under Ground",
+    "movie_type": "Drama|Romance|Thriller",
+    "rating": 2.16,
+    "release_date": "08/01/2023",
+    "movie_status": false
+  },
+  {
+    "id": 70,
+    "movie_name": "Brimstone and Treacle",
+    "movie_type": "Drama|Thriller",
+    "rating": 0.84,
+    "release_date": "10/09/2022",
+    "movie_status": true
+  },
+  {
+    "id": 71,
+    "movie_name": "Alien Nation: The Udara Legacy",
+    "movie_type": "Sci-Fi",
+    "rating": 4.49,
+    "release_date": "25/02/2023",
+    "movie_status": false
+  },
+  {
+    "id": 72,
+    "movie_name": "Liebestraum",
+    "movie_type": "Mystery|Thriller",
+    "rating": 1.09,
+    "release_date": "18/01/2023",
+    "movie_status": false
+  },
+  {
+    "id": 73,
+    "movie_name": "How to Survive a Plague",
+    "movie_type": "Documentary",
+    "rating": 0.3,
+    "release_date": "20/03/2023",
+    "movie_status": true
+  },
+  {
+    "id": 74,
+    "movie_name": "Never Forever",
+    "movie_type": "Drama|Romance",
+    "rating": 2.11,
+    "release_date": "30/07/2022",
+    "movie_status": true
+  },
+  {
+    "id": 75,
+    "movie_name": "Mother, I Love You",
+    "movie_type": "Drama",
+    "rating": 0.48,
+    "release_date": "15/09/2022",
+    "movie_status": false
+  },
+  {
+    "id": 76,
+    "movie_name": "Whiteout",
+    "movie_type": "Action|Crime|Drama|Mystery|Thriller",
+    "rating": 3.99,
+    "release_date": "09/02/2023",
+    "movie_status": true
+  },
+  {
+    "id": 77,
+    "movie_name": "Nazis at the Center of the Earth",
+    "movie_type": "Action|Adventure|Horror|Thriller",
+    "rating": 0.59,
+    "release_date": "16/02/2023",
+    "movie_status": true
+  },
+  {
+    "id": 78,
+    "movie_name": "Porky's II: The Next Day",
+    "movie_type": "Comedy",
+    "rating": 3.74,
+    "release_date": "26/06/2022",
+    "movie_status": true
+  },
+  {
+    "id": 79,
+    "movie_name": "Mirrors 2",
+    "movie_type": "Horror|Mystery|Thriller",
+    "rating": 0.42,
+    "release_date": "13/04/2022",
+    "movie_status": false
+  },
+  {
+    "id": 80,
+    "movie_name": "Super Hero Party Clown",
+    "movie_type": "Comedy|Romance",
+    "rating": 0.25,
+    "release_date": "11/04/2023",
+    "movie_status": false
+  },
+  {
+    "id": 81,
+    "movie_name": "What Lies Beneath",
+    "movie_type": "Drama|Horror|Mystery",
+    "rating": 0.59,
+    "release_date": "25/12/2022",
+    "movie_status": false
+  },
+  {
+    "id": 82,
+    "movie_name": "No Blade of Grass",
+    "movie_type": "Drama|Sci-Fi",
+    "rating": 4.8,
+    "release_date": "03/01/2023",
+    "movie_status": false
+  },
+  {
+    "id": 83,
+    "movie_name": "Test Pilot",
+    "movie_type": "Drama|Romance",
+    "rating": 3.58,
+    "release_date": "14/10/2022",
+    "movie_status": true
+  },
+  {
+    "id": 84,
+    "movie_name": "Chain Reaction",
+    "movie_type": "Horror",
+    "rating": 1.8,
+    "release_date": "05/09/2022",
+    "movie_status": false
+  },
+  {
+    "id": 85,
+    "movie_name": "Food Matters",
+    "movie_type": "Documentary",
+    "rating": 2.25,
+    "release_date": "20/10/2022",
+    "movie_status": true
+  },
+  {
+    "id": 86,
+    "movie_name": "Knuckle ",
+    "movie_type": "Documentary",
+    "rating": 0.43,
+    "release_date": "23/12/2022",
+    "movie_status": true
+  },
+  {
+    "id": 87,
+    "movie_name": "Three Musketeers, The",
+    "movie_type": "Action|Adventure|Romance",
+    "rating": 3.37,
+    "release_date": "16/07/2022",
+    "movie_status": false
+  },
+  {
+    "id": 88,
+    "movie_name": "Shadowlands",
+    "movie_type": "Drama|Romance",
+    "rating": 0.8,
+    "release_date": "16/11/2022",
+    "movie_status": true
+  },
+  {
+    "id": 89,
+    "movie_name": "Coogan's Bluff",
+    "movie_type": "Crime",
+    "rating": 1.09,
+    "release_date": "31/12/2022",
+    "movie_status": false
+  },
+  {
+    "id": 90,
+    "movie_name": "Gumball Rally, The",
+    "movie_type": "Adventure|Comedy",
+    "rating": 4.34,
+    "release_date": "03/04/2023",
+    "movie_status": true
+  },
+  {
+    "id": 91,
+    "movie_name": "It Rains in My Village (Bice skoro propast sveta)",
+    "movie_type": "Drama",
+    "rating": 2.83,
+    "release_date": "08/12/2022",
+    "movie_status": true
+  },
+  {
+    "id": 92,
+    "movie_name": "Legend of Bagger Vance, The",
+    "movie_type": "Drama|Romance",
+    "rating": 0.72,
+    "release_date": "08/03/2023",
+    "movie_status": true
+  },
+  {
+    "id": 93,
+    "movie_name": "Lilies of the Field",
+    "movie_type": "Drama",
+    "rating": 0.56,
+    "release_date": "22/10/2022",
+    "movie_status": false
+  },
+  {
+    "id": 94,
+    "movie_name": "Abyss, The",
+    "movie_type": "Action|Adventure|Sci-Fi|Thriller",
+    "rating": 4.25,
+    "release_date": "30/10/2022",
+    "movie_status": true
+  },
+  {
+    "id": 95,
+    "movie_name": "Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers, The",
+    "movie_type": "Documentary",
+    "rating": 0.55,
+    "release_date": "05/10/2022",
+    "movie_status": false
+  },
+  {
+    "id": 96,
+    "movie_name": "Praying with Lior",
+    "movie_type": "Documentary",
+    "rating": 0.32,
+    "release_date": "28/02/2023",
+    "movie_status": false
+  },
+  {
+    "id": 97,
+    "movie_name": "Napoleon Dynamite",
+    "movie_type": "Comedy",
+    "rating": 3.38,
+    "release_date": "11/01/2023",
+    "movie_status": true
+  },
+  {
+    "id": 98,
+    "movie_name": "The Message",
+    "movie_type": "Crime|Drama|Thriller|War",
+    "rating": 0.92,
+    "release_date": "09/08/2022",
+    "movie_status": true
+  },
+  {
+    "id": 99,
+    "movie_name": "Isabelle au bois dormant",
+    "movie_type": "Animation|Comedy",
+    "rating": 3.43,
+    "release_date": "18/11/2022",
+    "movie_status": false
+  },
+  {
+    "id": 100,
+    "movie_name": "Cleanskin",
+    "movie_type": "Crime|Drama|Thriller",
+    "rating": 3.62,
+    "release_date": "14/02/2023",
+    "movie_status": false
+  }
+]

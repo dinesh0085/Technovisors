@@ -1,0 +1,27 @@
+/* 4 Tables CSS */
+
+#multiple_table_div {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#main_table{
+    margin-top: 20px;
+}
+
+#main_table table thead{
+    background-color: #444791;
+    color: white;
+}
+
+.table_body tr td{
+    background-color: beige;
+    font-size: 12px;
+}
+
+
+
+/* Main Table CSS */
+
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+<!-- CSS CDN for datatables -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+<!-- CSS CDN for tabletools -->
+<link rel="stylesheet" href="//cdn.datatables.net/tabletools/2.2.4/css/dataTables.tableTools.css" />
+<!-- CSS CDN for buttons  -->
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css" />
+<!-- CSS CDN for styling datatable -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap4.min.css" />
+<!-- CSS CDN for styling datatable -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" />
+
+<link href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.13.4/af-2.5.3/b-2.3.6/b-colvis-2.3.6/b-html5-2.3.6/b-print-2.3.6/date-1.4.1/fc-4.2.2/fh-3.3.2/kt-2.8.2/r-2.4.1/rg-1.3.1/rr-1.3.3/sc-2.1.1/sb-1.4.2/sp-2.1.2/sl-1.6.2/sr-1.2.2/datatables.min.css" rel="stylesheet"/>
+
+
+
+<!-- CSS CDN for bootstrap -->
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <div id="Loading_div" style="width: 100%;height: 100vh;display: flex;justify-content: center;align-items: center;">
+        <div class="spinner-grow" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+    </div>
+   <!-- --------------------------Form Div-------------------------- -->
+    <div id="main_container"  >
+
+        <nav class="navbar navbar-light bg-light" id="navbar">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1">Parameter</span>
+            </div>
+          </nav>
+   
+
+        <form id="parameter_form" style="width: 40%;margin: auto;margin-top: 10px;">
+            <div class="mb-3">
+              <label for="brand_select" class="form-label">Brand</label>
+              <select class="form-select" id="brand_select">
+                <option selected value="NAN">Brand</option>
+                <!-- Append options using javascript -->
+              </select>
+            </div>
+            <div class="mb-3">
+                <label for="itemCategory" class="form-label">Item Category</label>
+                <select class="form-select" id="itemCategory">
+                  <option selected value="NAN">Item Category</option>
+                  <!-- Append options using javascript -->
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="Country" class="form-label">Country</label>
+                <select class="form-select" id="Country">
+                  <option selected value="NAN">Country</option>
+                   <!-- Append options using javascript -->
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="Region" class="form-label">Region</label>
+                <select class="form-select" id="Region">
+                  <option selected value="NAN">Region</option>
+                   <!-- Append options using javascript -->
+                </select>
+              </div>
+
+              <div class="mb-3">
+                <label for="from_date" class="form-label">From Date</label>
+                <input required type="date" class="form-control" id="from_date">
+              </div>
+
+              <div class="mb-3">
+                <label for="to_date" class="form-label">To Date</label>
+                <input required type="date" class="form-control" id="to_date">
+              </div>
+           
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Submit</button>
+          </form>
+
+          
+    </div>
+<!-- --------------------------Table Div-------------------------- -->
+    <div id="main_div">
+
+        <div id="main_table">
+            <!-- Main HTML Table -->
+            <table id="myTable" class="table table-striped table-bordered" style="width:100%">
+
+                <thead>
+                   
+                    <tr>
+                        <th>CUSTOMER NAME</th>
+                        <th>DOC NUMBER</th>
+                        <th>REGION NAME</th>
+                        <th>COUNTRY NAME</th>
+                        <th>BRAND NAME</th>
+                        <th>AMOUNT</th>
+                    </tr>
+                </thead>
+               
+
+            </table>
+
+        </div>
+
+    </div>
+
+
+
+
+    
+
+
+    <!-- CDN for JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- CDN for datatables -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+  <script src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.13.4/af-2.5.3/b-2.3.6/b-colvis-2.3.6/b-html5-2.3.6/b-print-2.3.6/date-1.4.1/fc-4.2.2/fh-3.3.2/kt-2.8.2/r-2.4.1/rg-1.3.1/rr-1.3.3/sc-2.1.1/sb-1.4.2/sp-2.1.2/sl-1.6.2/sr-1.2.2/datatables.min.js"></script>
+ 
+  <script type="module" src="index.js"></script>
+   
+</body>
+</html>

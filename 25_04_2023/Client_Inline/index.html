@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Datatable css -->
+    <link href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.13.4/b-2.3.6/b-colvis-2.3.6/b-html5-2.3.6/b-print-2.3.6/cr-1.6.2/fc-4.2.2/fh-3.3.2/kt-2.8.2/sc-2.1.1/sb-1.4.2/sp-2.1.2/sl-1.6.2/sr-1.2.2/datatables.min.css" rel="stylesheet"/>
+   <link rel="stylesheet" type="text/css" href="./DataTable/datatables.min.css">
+
+    
+
+
+</head>
+<body>
+    <table id="movie_table" class="table">
+        <thead>
+            <tr>
+                <th>Sr No</th>
+                <th>Movie_Name</th>
+                <th>Movie_Type</th>
+                <th>Rating</th>
+                <th>Movie_Release_Date</th>
+            </tr>
+        </thead>
+    </table>
+    <!-- JQuery js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Datatable js -->
+    <script src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.13.4/b-2.3.6/b-colvis-2.3.6/b-html5-2.3.6/b-print-2.3.6/cr-1.6.2/fc-4.2.2/fh-3.3.2/kt-2.8.2/sc-2.1.1/sb-1.4.2/sp-2.1.2/sl-1.6.2/sr-1.2.2/datatables.min.js"></script>
+   <script type="text/javascript" src="./DataTable/datatables.min.js"></script>
+<script>
+
+$(document).ready(function(){
+
+    var editor = new DataTable.Editor( {
+    ajax:  {
+        url:"http://localhost:8080/editor",
+        type:"post",
+        dataSrc:"data"
+    },
+    table: '#movie_table',
+    fields: [
+        { label: 'ID', name: 'id' },
+        { label: 'First name', name: 'movie_name' },
+        { label: 'Last name',  name: 'movie_type'  },
+        { label: 'Last name',  name: 'rating'  },
+        { label: 'Last name',  name: 'release_date'  }
+        // etc
+    ]
+} );
+
+$('#movie_table').on( 'click', 'tbody td:not(:first-child)', function (e) {
+        editor.inline( this );
+    } );
+
+let table = new DataTable('#movie_table', {
+    ajax:  {
+        url:"http://localhost:8080/editor",
+        type:"post",
+        dataSrc:"data"
+    },  
+    dom: 'Bfrtip',
+    columns: [
+        { data: ""*"" ,defaultContent: '#'},
+        { data: 'movie_name' },
+        { data: 'movie_type' },
+        { data: 'rating' },
+        { data: 'release_date'},
+        // etc
+    ],
+    select: {
+            style:    'os',
+            selector: 'td:first-child'
+        },
+    buttons: [
+        { extend: 'create', editor: editor },
+        { extend: 'edit',   editor: editor },
+        { extend: 'remove', editor: editor }
+    ]
+} );
+})
+    
+</script>
+
+</body>
+</html>

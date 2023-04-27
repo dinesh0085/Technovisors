@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+<!-- CSS CDN for datatables -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+<!-- CSS CDN for buttons  -->
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.6/css/buttons.dataTables.min.css" />
+<!-- CSS CDN for styling datatable -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" />
+<!-- Search Panes -->
+<link href="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.13.4/af-2.5.3/b-2.3.6/b-colvis-2.3.6/b-html5-2.3.6/b-print-2.3.6/date-1.4.1/fc-4.2.2/fh-3.3.2/kt-2.8.2/r-2.4.1/rg-1.3.1/rr-1.3.3/sc-2.1.1/sb-1.4.2/sp-2.1.2/sl-1.6.2/sr-1.2.2/datatables.min.css" rel="stylesheet"/>
+<!--CSS Link for editor -->
+<link rel="stylesheet" href="./DataTable2/Editor-2023-05-06-2.1.2/css/editor.dataTables.min.css">
+
+<!-- Date time field CDN -->
+<link rel="stylesheet" href="https://cdn.datatables.net/datetime/1.4.0/css/dataTables.dateTime.min.css">
+
+<!-- CDN for icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<!--Local CSS  -->
+<link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+   
+<!-- --------------------------Table Div-------------------------- -->
+    <div id="main_div">
+
+        <div id="main_table">
+            <!-- Main HTML Table -->
+            <table id="myTable" class="table table-striped table-bordered" style="width:100%">
+
+                <thead>
+                   
+                    <tr>
+                        <th>ID</th>
+                        <th>CUSTOMER NAME</th>
+                        <th>DOC NUMBER</th>
+                        <th>REGION NAME</th>
+                        <th>COUNTRY NAME</th>
+                        <th>BRAND NAME</th>
+                        <th>AMOUNT</th>
+                    </tr>
+                </thead>
+               
+
+            </table>
+
+        </div>
+
+    </div>
+
+
+
+
+    
+
+
+    <!-- CDN for JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- CDN for datatables -->
+  <script src="https://cdn.datatables.net/v/bs4/jszip-2.5.0/dt-1.13.4/af-2.5.3/b-2.3.6/b-colvis-2.3.6/b-html5-2.3.6/b-print-2.3.6/date-1.4.1/fc-4.2.2/fh-3.3.2/kt-2.8.2/r-2.4.1/rg-1.3.1/rr-1.3.3/sc-2.1.1/sb-1.4.2/sp-2.1.2/sl-1.6.2/sr-1.2.2/datatables.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+
+  <!-- CDN Link for Editor js -->
+  <script src="./DataTable2/Editor-2023-05-06-2.1.2/js/dataTables.editor.min.js"></script>
+
+  <script src="https://cdn.datatables.net/datetime/1.4.0/js/dataTables.dateTime.min.js"></script>
+
+  
+  <!--Local JS file   -->
+  <script type="module" src="index.js"></script>
+   
+</body>
+</html>

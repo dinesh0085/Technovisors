@@ -46,6 +46,8 @@ function optionsAppend(data){
        
     })
 
+    console.log(brand_obj);
+
     for(let key in brand_obj){
         if(key===""){
         let option=document.createElement("option")

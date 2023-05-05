@@ -1,0 +1,77 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+#heading{
+    margin: auto;
+    text-align: center;
+    background-color: teal;
+    color: white;
+}
+
+#form{
+    box-sizing: border-box;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1rem;
+    }
+
+#form div{
+    display: flex;
+    flex-direction: column;
+}
+
+#form div label{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#form div input{
+    padding:10px;
+   border: 1px solid teal;
+   border-radius: 10px;
+    
+}
+
+#form button{
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: teal;
+    color: white;
+    border-color: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+#form div input:hover{
+    border: 2px solid teal;
+}
+
+#form div input:focus{
+    border: 2px solid teal;
+}
+
+#form button:hover{
+    background-color:antiquewhite;
+    color: black;
+}
+
+#dialoge{
+    background-color: red;
+    padding: 1px;
+    font-size: 12px;
+    margin-top: 2px;
+    color: white;
+    width: 98%;
+    text-align: center;
+    border-radius: 5px;  
+    font-weight: bold;   
+}
